@@ -29,7 +29,7 @@ def position_taken?(board, position)
 end
 
 def move(board, position, move = "X")
-  puts board[position] = move
+  board[position] = move
 end
 
 def turn(board)
@@ -39,6 +39,7 @@ def turn(board)
   position = input_to_index(user_move)
   if valid_move?(board, position)
     move(board, position, "X")
+    display_board(board)
   else turn(board)
   end
 end
