@@ -1,6 +1,6 @@
 def display_board(board)
 #actually displaying the board in ascii art
-puts ""
+puts " #{board[0]} | #{board[1]} | #{board[2]} "
 puts "-----------"
 puts ""
 puts "-----------"
