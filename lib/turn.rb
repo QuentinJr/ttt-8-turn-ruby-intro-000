@@ -35,5 +35,10 @@ end
 def turn()
 #entire process for taking a turn
 puts "Please enter 1-9:"
-move = gets.strip
+user_move = gets.strip
+position = input_to_index(user_move)
+if valid_move?(position)
+
+
+
 end
