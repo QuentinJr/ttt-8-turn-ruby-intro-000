@@ -15,7 +15,7 @@ def valid_move?(board, position)
 end
 
 def position_taken?(board, position)
-#check index of board to see if it's occupied with X or O already
+#check index of board to see if it's occupied already
   if (board[position] == "" || board[position] == " " || board[position] == nil)
     return false
   else return true
