@@ -34,6 +34,6 @@ end
 
 def turn()
 #entire process for taking a turn
-
+puts "Please enter 1-9:"
 
 end
