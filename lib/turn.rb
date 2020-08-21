@@ -33,14 +33,11 @@ def move(board, position, move = "X")
 end
 
 def turn()
-#entire process for taking a turn
-puts "Please enter 1-9:"
-user_move = gets.strip
-position = input_to_index(user_move)
-if valid_move?(position)
+  #entire process for taking a turn
+  puts "Please enter 1-9:"
+  user_move = gets.strip
+  position = input_to_index(user_move)
+  if valid_move?(position)
   move(board, position, "X")
-end
-
-
-
+  end
 end
