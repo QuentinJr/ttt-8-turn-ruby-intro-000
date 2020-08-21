@@ -1,6 +1,10 @@
 def display_board(board)
 #actually displaying the board in ascii art
-
+puts ""
+puts "-----------"
+puts ""
+puts "-----------"
+puts ""
 
 end
 
