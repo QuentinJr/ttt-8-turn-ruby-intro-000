@@ -35,5 +35,5 @@ end
 def turn()
 #entire process for taking a turn
 puts "Please enter 1-9:"
-
+move = gets.strip
 end
