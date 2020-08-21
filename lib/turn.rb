@@ -14,7 +14,7 @@ def valid_move?()
 
 end
 
-def position_taken?()
+def position_taken?(board, position)
 #check index of board to see if it's occupied with X or O already
 
 
