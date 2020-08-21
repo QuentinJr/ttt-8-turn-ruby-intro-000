@@ -10,7 +10,7 @@ end
 
 def valid_move?(board, position)
 #check if a position is both a valid position on the board and not already occupied
-
+  index = position - 1
 
 end
 
