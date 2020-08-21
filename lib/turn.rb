@@ -8,10 +8,15 @@ puts " #{board[6]} | #{board[7]} | #{board[8]} "
 
 end
 
+def input_to_index(user_input)
+
+  index = user_input - 1
+
+end
+
 def valid_move?(board, position)
 #check if a position is both a valid position on the board and not already occupied
-  index = position - 1
-  if (index.between? (0, 8) && !(position_taken?(board, index)))
+  if (position.between? (0, 8) && !(position_taken?(board, position)))
     return true
   else return false
   end
