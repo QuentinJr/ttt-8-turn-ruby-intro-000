@@ -15,7 +15,7 @@ end
 def valid_move?(board, position)
 #check if a position is both a valid position on the board and not already occupied
   index = input_to_index(position)
-  if (index.between? (0,8) && !(position_taken?(board, index)))
+  if (index.between?(0,8) && !(position_taken?(board, index)))
     return true
   else return false
   end
