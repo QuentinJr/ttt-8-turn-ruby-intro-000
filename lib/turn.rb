@@ -8,7 +8,7 @@ puts " #{board[6]} | #{board[7]} | #{board[8]} "
 
 end
 
-def valid_move?()
+def valid_move?(board, position)
 #check if a position is both a valid position on the board and not already occupied
 
 
@@ -16,8 +16,10 @@ end
 
 def position_taken?(board, position)
 #check index of board to see if it's occupied with X or O already
-
-
+  if (board[position] == "" || board[position] == " " || board[position] == nil)
+    return false
+  else return true
+  end
 end
 
 def turn()
