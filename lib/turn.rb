@@ -39,6 +39,7 @@ user_move = gets.strip
 position = input_to_index(user_move)
 if valid_move?(position)
   move(board, position, "X")
+end
 
 
 
