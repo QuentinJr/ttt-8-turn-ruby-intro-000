@@ -32,7 +32,7 @@ def move(board, position, move = "X")
   board[position] = move
 end
 
-def turn()
+def turn(board)
   #entire process for taking a turn
   puts "Please enter 1-9:"
   user_move = gets.strip
