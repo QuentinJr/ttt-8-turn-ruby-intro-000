@@ -29,7 +29,7 @@ def position_taken?(board, position)
 end
 
 def move(board, position, move = "X")
-  board[position] = move
+  puts board[position] = move
 end
 
 def turn(board)
