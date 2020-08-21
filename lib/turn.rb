@@ -25,6 +25,12 @@ def position_taken?(board, position)
   end
 end
 
+def move(board, position, move = "X")
+
+
+
+end
+
 def turn()
 #entire process for taking a turn
 
